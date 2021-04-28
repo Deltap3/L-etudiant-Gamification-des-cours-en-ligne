@@ -3,13 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package letudiant.model;
+package model;
 
 /**
  *
  * @author titou
  */
 public abstract class Person {
+    
     private int id;
     private String name;
     private String forname;
@@ -23,4 +24,5 @@ public abstract class Person {
         this.password = password;
         this.email = email;
     }
+    
 }
