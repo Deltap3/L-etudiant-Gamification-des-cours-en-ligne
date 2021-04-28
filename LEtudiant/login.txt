@@ -1,0 +1,4 @@
+jdbc:mysql://localhost:3306/capstone?useTimezone=true&serverTimezone=UTC
+root
+root
+com.mysql.cj.jdbc.Driver

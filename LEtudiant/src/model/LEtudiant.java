@@ -1,22 +1,22 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package model;
 
+import controller.Connexion;
+
 /**
- *
- * @author titou
+ * @author titou, rathsada
  */
 public class LEtudiant {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
-        // tada
+        
+        try{
+        // connect to the database
+        Connexion conn = new Connexion();
+        conn.closeConn();      
+        } catch (ClassNotFoundException e){
+            System.out.println("Class not found exception");
+        }
+        
     }
     
 }
