@@ -11,8 +11,8 @@ package model;
  */
 public class Lesson {
     
-    private String name;
     private int id;
+    private String name;
 
     public Lesson(String name, int id) {
         this.name = name;

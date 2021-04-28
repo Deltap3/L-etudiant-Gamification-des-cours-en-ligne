@@ -5,19 +5,14 @@
  */
 package model;
 
-import java.util.ArrayList;
-
 /**
  *
  * @author titou
  */
 public class Teacher extends Person {
     
-    private ArrayList<Major> majors;
-    
-    public Teacher(int id, String name, String forname, String password, String email, ArrayList<Major> majors) {
+    public Teacher(int id, String name, String forname, String password, String email) {
         super(id, name, forname, password, email);
-        this.majors = majors;
     }
     
 }

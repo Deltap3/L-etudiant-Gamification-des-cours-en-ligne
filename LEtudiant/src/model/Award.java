@@ -15,16 +15,16 @@ public class Award {
     
     private int id;
     private String name;
-    private float price;
+    private int price;
     private ArrayList<Integer> majors_id;
     
-    public Award(int id, String name, float price) {
+    public Award(int id, String name, int price) {
         this.id = id;
         this.name = name;
         this.price = price;
     }
 
-    public Award(int id, String name, float price, ArrayList<Integer> majors_id) {
+    public Award(int id, String name, int price, ArrayList<Integer> majors_id) {
         this.id = id;
         this.name = name;
         this.price = price;
