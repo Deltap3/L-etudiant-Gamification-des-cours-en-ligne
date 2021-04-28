@@ -3,12 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package letudiant.model;
+package model;
 
 /**
  *
  * @author titou
  */
 public class Lesson {
+    
+    private String name;
+    private int id;
+
+    public Lesson(String name, int id) {
+        this.name = name;
+        this.id = id;
+    }
     
 }

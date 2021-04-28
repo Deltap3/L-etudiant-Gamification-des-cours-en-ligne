@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package letudiant.model;
+package model;
 
 import java.util.HashMap;
 
@@ -14,7 +14,7 @@ import java.util.HashMap;
 public class Quiz {
     
     private Teacher teacher;
-    private HashMap<String, String> qa;
+    private HashMap<String, String> qa; // questions and answers
 
     public Quiz(Teacher teacher, HashMap<String, String> qa) {
         this.teacher = teacher;
