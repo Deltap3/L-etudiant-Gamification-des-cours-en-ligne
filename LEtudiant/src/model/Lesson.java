@@ -11,4 +11,12 @@ package model;
  */
 public class Lesson {
     
+    private String name;
+    private int id;
+
+    public Lesson(String name, int id) {
+        this.name = name;
+        this.id = id;
+    }
+    
 }

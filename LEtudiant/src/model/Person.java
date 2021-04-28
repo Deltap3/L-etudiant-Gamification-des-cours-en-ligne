@@ -10,6 +10,7 @@ package model;
  * @author titou
  */
 public abstract class Person {
+    
     private int id;
     private String name;
     private String forname;
@@ -23,4 +24,5 @@ public abstract class Person {
         this.password = password;
         this.email = email;
     }
+    
 }
